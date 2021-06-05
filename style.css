@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+  background: url(images/bg-pattern-top-mobile.svg) #f7f2f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper {
+  margin: 3rem 1rem;
+}
+
+.header {
+  color: #502050;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.rate {
+  background-color: #f7f2f7;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.rate .rate__paragraph {
+  color: #502050;
+  font-weight: 600;
+}
+
+.section {
+  background: #502050;
+  margin: 1.5rem 0;
+  border-radius: 0.7rem;
+  position: relative;
+  padding: 3rem;
+}
+
+.section .section__header {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.section .section__span {
+  color: #ee68a4;
+}
+
+.section .section__paragraph {
+  color: white;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.section .section__img {
+  position: absolute;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  left: 3rem;
+  top: 3rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SofPink: hsl(333, 80%, 67%);
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+  background: url(images/bg-pattern-top-mobile.svg) $LightGrayishMagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  margin: 3rem 1rem;
+}
+.header {
+  color: $VeryDarkMagenta;
+  font-weight: 600;
+  padding: 2rem;
+}
+.rate {
+  background-color: $LightGrayishMagenta;
+  margin: 1rem 0;
+  padding: 1rem;
+  .rate__paragraph {
+    color: $VeryDarkMagenta;
+    font-weight: 600;
+  }
+}
+.section {
+  background: $VeryDarkMagenta;
+  margin: 1.5rem 0;
+  border-radius: 0.7rem;
+  position: relative;
+  padding: 3rem;
+  .section__header {
+    color: $White;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .section__span {
+    color: $SofPink;
+  }
+  .section__paragraph {
+    color: $White;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  .section__img {
+    position: absolute;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    left: 3rem;
+    top: 3rem;
+  }
+}
